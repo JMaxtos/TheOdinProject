@@ -28,24 +28,30 @@ body {
 
 .Hero-Container {
     gap: 5px;
-    padding: 10px;
-    margin: 3px;
+    margin: 10px;
+    margin-left: 25px;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
 }
-
+.Hero-Container button{
+        background-color: #b4121b;
+        color: #f9faf8;
+        border: 0px;
+        padding: 3px;
+        margin: 2px;
+        align-self: center;
+    
+}
 .Hero-Image {
-    padding: 20px;
-    margin-left: 150px;
+    padding: 80px;
+    margin-left: 200px;
 }
 
-.Hero button {
-    background-color: #b4121b;
-    color: #f9faf8;
-    border: 5px;
-    padding: 2px;
-    margin: 2px;
+.Hero-Image img{
+    border: 5px solid #b4121b;
+    border-radius: 20%;
+    box-shadow: 10px 9px 20px #b4121b;
 }
 
 .Hero .title {
@@ -53,6 +59,7 @@ body {
     color: #f9faf8;
     font-weight: 900;
 }
+
 
 a {
     text-decoration: none;
