@@ -6,7 +6,7 @@ body {
 .body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto',Arial;
+    font-family: 'Roboto', Arial;
     color: white;
 }
 
@@ -34,21 +34,23 @@ body {
     flex-direction: column;
     flex-grow: 0;
 }
-.Hero-Container button{
-        background-color: #b4121b;
-        color: #f9faf8;
-        border: 0px;
-        padding: 3px;
-        margin: 2px;
-        align-self: center;
-    
+
+.Hero-Container button {
+    background-color: #b4121b;
+    color: #f9faf8;
+    border: 0px;
+    padding: 3px;
+    margin: 2px;
+    align-self: center;
+
 }
+
 .Hero-Image {
     padding: 80px;
     margin-left: 200px;
 }
 
-.Hero-Image img{
+.Hero-Image img {
     border: 5px solid #b4121b;
     border-radius: 20%;
     box-shadow: 10px 9px 20px #b4121b;
@@ -60,15 +62,16 @@ body {
     font-weight: 900;
 }
 
-.Information-title{
+.Information-title {
     color: black;
-    font-size:36px;
+    font-size: 36px;
     font-weight: 900;
     text-align: center;
     margin: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
-.container{
+
+.container {
     display: flex;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
@@ -79,18 +82,20 @@ body {
     color: #000000;
 }
 
-.container img{
+.container img {
     width: 250px;
     height: 250px;
-    border: 5px solid #000000; ;
+    border: 5px solid #7c4b4a;
+    
 }
 
-.images-info .text{
+.images-info .text {
     text-align: center;
     max-width: 200px;
+    color: #000000;
 }
 
-.quote{
+.quote {
     background: #e5e7eb;
     color: #000000;
     padding: 100px;
@@ -98,22 +103,58 @@ body {
     margin-bottom: 25px;
 }
 
-.Sentence{
-    font-size: 36px ;
+.Sentence {
+    font-size: 36px;
     font-style: italic;
     color: #7c4b4a;
     text-align: center;
     align-items: center;
 }
 
-.Author{
+.Author {
     font-weight: 900;
     margin-top: 30px;
     text-align: end;
 }
-.Author a{
+
+.Author a {
     font-weight: 900;
 }
+
+.Sign-up-box {
+    display: flex;
+    background: #b4121b;
+    margin: 50px 175px;
+    padding: 40px 80px;
+    align-items: center;
+    border-radius: 3px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.box-header {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.box-text{
+    font-size: 14px;
+}
+
+.Sign-up-box button{
+    background: #b4121b;
+    color: #e5e7eb;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Bottom, .Bottom a{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    color:#e5e7eb
+}
+
 
 a {
     text-decoration: none;
@@ -129,5 +170,5 @@ ul {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-right:20px ;
+    padding-right: 20px;
 }
