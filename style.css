@@ -26,6 +26,9 @@ body{
 
 .bottom{
     background: #021526;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 h1{
