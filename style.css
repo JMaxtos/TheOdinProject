@@ -18,17 +18,28 @@ body{
 
 .resume{
     background: #03346E;
+    padding: 10px;
 }
 
 .projects{
-    background-color: #6EACDA;
+    background-color:white ;
+    color: #03346E;
+    padding: 20px;
+}
+
+.projects a{
+    color:#021526;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
 }
 
 .bottom{
-    background: #021526;
+    background: #2d3754;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-top: auto;
 }
 
 h1{
@@ -46,6 +57,11 @@ h2{
 h3{
     font-size: 30px;
     font-weight: 800;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
 }
 
 a {
