@@ -26,7 +26,7 @@ Stay tuned for more projects as I continue to learn and grow in web development.
 
 ## 🖊️ Author  
 
-Hi! I'm **[JMaxtos](https://github.com/JMaxtos)**, I'm an web developer on a mission to compreend web technologies. Feel free to contact me.
+Hi! I'm **[JMaxtos](https://github.com/JMaxtos)**, I'm a student that is learning web development on his own. Feel free to contact me.
 
 ---
 
