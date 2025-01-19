@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     color: #E2E2B6;
 }
-.tittle{
+.title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,15 +21,21 @@ body{
     padding: 10px;
 }
 
+
+
 .projects{
     background-color:white ;
     color: #03346E;
     padding: 20px;
 }
 
+.resume a{
+    font-style:italic;
+    font-weight: 800;
+}
 .projects a{
-    color:#021526;
-    font-size: 25px;
+    color:#133866;
+    font-size: 25pt;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
 }
@@ -43,28 +49,29 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40pt;
     font-weight: 900;
     padding: 10px;
     padding-left: 20px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30pt;
     font-weight: 800;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 20pt;
     font-weight: 800;
 }
 
 h4{
-    font-size: 20px;
+    font-size: 20pt;
     font-weight: 700;
 }
 
 a {
-    text-decoration: none;
+    color: #E2E2B6;
+    font-size: 14 pt;
 }
 
