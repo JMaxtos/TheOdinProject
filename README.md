@@ -4,7 +4,7 @@ Welcome to my **Odin Projects Repository**, where I showcase my journey through 
 
 This repository contains my solutions to the projects I completed during the course, providing a solid base in essential web development skills. I will continue my path but still didn't decide which one   
 
-🌐 **[View My Main Projects Page](https://jmaxtos.github.io/TheOdinProject/)**  
+🌐 **[View My Main Projects Page](https://jmaxtos.github.io/TheOdinProject/)**  (work in progress)
 
 ---
 
@@ -16,13 +16,6 @@ This repository contains my solutions to the projects I completed during the cou
 - Building responsive layouts with **Flexbox**  
 - Real-world project creation  
 - And much more !!!
-
----
-
-## 🎯 What's Next?  
-Stay tuned for more projects as I continue to learn and grow in web development. This repository will keep evolving with more advanced solutions as I progress through The Odin Project curriculum.  
-
----
 
 ## 🖊️ Author  
 
