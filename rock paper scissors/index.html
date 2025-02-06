@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Rock Paper Scissors Game</h1>
+    </div>
+    <div class="scores">
+        <div class="computerscore">
+            <h2>Computer Score</h2>
+            <p id="computerscore">0</p>
+        </div>
+        <div class="humanscore">
+            <h2>Your Score</h2>
+            <p id="humanscore">0</p>
+        </div>
+    </div>
+    <div class="moves">
+        <h2 id="result">Click on One of the Buttons to Start the Game</h2>
+        <h3 id="move">Moves will appear here</h3>
+    </div>
+    
+    <div class="container">
+        <button type="button" onclick="playRound('Rock')">
+            <img src="rock.svg" alt="Rock"width="200" height="200">
+        </button>
+        <button type="button" onclick="playRound('Paper')">
+            <img src="paper.svg" alt="Paper" width="200" height="200">
+        </button>
+        <button type="button" onclick="playRound('Scissors')">
+            <img src="scissors.svg" alt="Scissors" width="200" height="200">
+        </button>
+    </div>
+    <div class="bottom">
+        <p> Copyright @ JMaxtos 2025</p>
+    
+    </div>
+    </div>
+  
+
+    <script src="rockpaperscissors.js">
+
+    </script>
+</body>
+
+</html>
