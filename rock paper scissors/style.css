@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/allaska');
 
+html,
 body {
     display: flex;
     flex-direction: column;
@@ -67,6 +68,11 @@ button img {
     height: auto;
     object-fit: contain;
     border-radius: 20%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .bottom {
