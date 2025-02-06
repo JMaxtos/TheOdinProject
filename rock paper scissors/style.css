@@ -4,39 +4,47 @@ html,
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #A888B5;
     margin: 0;
+    padding: 0;
     font-family: 'ALLASKA', sans-serif;
     text-align: center;
     color: #FFD2A0;
     height: 100%;
-}
 
-.header {
+}
+.header{
     display: flex;
     background-color: #8174A0;
     align-items: center;
     justify-content: center;
 }
+.scoreboard{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .scores {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
+    font-size: 40px;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
 }
 
-.moves {
+.score-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -47,8 +55,8 @@ button {
     height: auto;
     background: none;
     border: none;
-    padding: 10px;
-    margin: 20px;
+    padding: 5 px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -68,47 +76,39 @@ button:hover {
 }
 
 .bottom {
-    display: flex;
-
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
 }
-
 .bottom p {
     font-size: 20pt;
 }
-
-.bottom a img {
-    transition: transform 0.3s ease-in-out;
-}
-
-.bottom a img:hover {
-    transform: scale(1.2) rotate(360deg);
-}
-
+.bottom img:hover {
+    transform: scale(1.2);
+  }
 
 h1 {
-    font-family: 'ALLASKA', sans-serif;
-    font-size: 40pt;
-
+    font-size: 40px;
+    font-weight: 900;
 }
 
 h2 {
-    font-size: 30pt;
-    padding: 10px;
+    font-size: 32px;
 }
-
 h3 {
-    font-size: 20pt;
+    font-size: 22px;
 }
 
 p {
-    font-size: 30pt;
+    font-size: 22px;
 }
-
 a {
     text-decoration: none;
     color: #FFD2A0;
