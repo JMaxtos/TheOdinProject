@@ -1,5 +1,5 @@
 let humanScore = 0;
-let computerScore= 0;
+let computerScore = 0;
 function getComputerChoice() {
     let computerChoice = (Math.random() * 2).toFixed(0);
     if (computerChoice == 0) {
@@ -18,53 +18,30 @@ function getHumanChoice() {
     return humanChoice
 }
 
-function playRound(humanChoice, computerChoice) {
-    if (computerChoice.toUpperCase() == humanChoice) {
-        console.log("Draw")
+function playRound(humanChoice) {
+
+    let result = " ";
+    let move = " ";
+    let computerChoice = getComputerChoice();
+    if (computerChoice == humanChoice) {
+        result = `Draw!`; 
+        move = `Both Choose ${humanChoice}`;
     } else {
-        if (computerChoice == "Rock") {
-            if (humanChoice == "PAPER") {
-                console.log("You Win!! Paper covers Rock");
-                humanScore++;
-            }
-            if (humanChoice == "SCISSORS") {
-                console.log("You Lose!! Rock Covers Scissors");
-                computerScore++;
-            }
-        }
-
-        if (computerChoice == "Paper") {
-            if (humanChoice == "ROCK") {
-                console.log("You Lose !! Paper Covers Rock");
-                computerScore++;
-            }
-            if (humanChoice == "SCISSORS") {
-                console.log("You Win !! Scissors Covers Paper");
-                humanScore++;
-            }
-        }
-        if (computerChoice == "Scissors") {
-            if (humanChoice == "ROCK") {
-                console.log("You Win!! Rock covers Scissors");
-                humanScore++;
-            }
-            if (humanChoice == "PAPER") {
-                console.log("You Lose!! Scissors covers Rock");
-                computerScore++;
-            }
+        if ((humanChoice === "Rock" && computerChoice === "Scissors") ||
+            (humanChoice === "Paper" && computerChoice === "Rock") ||
+            (humanChoice === "Scissors" && computerChoice === "Paper")) {
+            result = `Player Wins!`;
+            move = `${humanChoice} beats ${computerChoice}.`
+            humanScore++;
+        } else {
+            result = `Computer Wins!`;
+            move = `${humanChoice} is beaten by ${computerChoice}.`
+            computerScore++;
         }
     }
+    document.getElementById("result").innerText = result;
+    document.getElementById("computerscore").innerText = computerScore;
+    document.getElementById("humanscore").innerText = humanScore;
+    document.getElementById("move").innerText = move;
 }
 
-function playGame() {
-    for (let i = 0; i < 5; i++) {
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-        console.log(computerSelection.toString());
-        console.log("Eu: " + humanSelection.toString());
-     
-        playRound(humanSelection, computerSelection);
-        console.log("Computer Score: " + computerScore + " Human Score: " + humanScore );
-    }
-}
-playGame();
