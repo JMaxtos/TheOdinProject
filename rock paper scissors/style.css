@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/allaska');
 
 body {
+    background-color: #A888B5;
     margin: 0;
     font-family: 'ALLASKA', sans-serif;
     text-align: center;
@@ -17,7 +18,7 @@ body {
 
 .scores {
     display: flex;
-    background: #A888B5;
+
     justify-content: space-between;
     padding: 20px;
 }
@@ -25,14 +26,14 @@ body {
 .moves {
     display: flex;
     flex-direction: column;
-    background-color: #A888B5;
+
     align-items: center;
     justify-content: center;
 }
 
 .container {
     display: flex;
-    background: #A888B5;
+
     align-items: center;
     justify-content: space-around;
     padding: 20px;
@@ -40,36 +41,37 @@ body {
 
 button {
     display: flex;
-    width: 100%; 
-    max-width: 300px; 
-    height: auto; 
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     background: none;
     border: none;
     padding: 10px;
     margin: 20px;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
 button img {
     background-color: #EFB6C8;
     padding: 10px;
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
     border-radius: 20%;
 }
 
 .bottom {
     display: flex;
-    background-color: #A888B5;
+
     width: 100%;
     bottom: 0;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     margin-bottom: 2px;
 }
-.bottom p{
+
+.bottom p {
     font-size: 20pt;
 }
 
@@ -81,14 +83,17 @@ h1 {
 
 h2 {
     font-size: 30pt;
-}
-h3{
-    font-size:20pt;
+    padding: 10px;
 }
 
-p{
+h3 {
+    font-size: 20pt;
+}
+
+p {
     font-size: 30pt;
 }
+
 a {
     text-decoration: none;
     color: #FFD2A0;
