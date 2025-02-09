@@ -15,7 +15,14 @@
     <div class="scoreboard">
         <div class="moves">
             <h2 id="result">Click on One of the Buttons to Start the Game</h2>
-            <h3 id="move">Moves will appear here !</h3>
+        </div>
+        <div class="playsarea">
+            <div class="playermove">
+                <img id="playermoveimg" src="unknown.svg" alt="Player Choice" width="150" height="150">
+            </div>
+            <div class="computermove">
+                <img id="computermoveimg" src="unknown.svg" alt="Computer Choice" width="150" height="150">
+            </div>
         </div>
         <div class="scores">
             <div class="score-box">
@@ -31,20 +38,20 @@
 
     <div class="container">
         <button type="button" onclick="playRound('Rock')">
-            <img src="rock.svg" alt="Rock" width="200" height="200">
+            <img src="rock.svg" alt="Rock" width="150" height="150">
         </button>
         <button type="button" onclick="playRound('Paper')">
-            <img src="paper.svg" alt="Paper" width="200" height="200">
+            <img src="paper.svg" alt="Paper" width="150" height="150">
         </button>
         <button type="button" onclick="playRound('Scissors')">
-            <img src="scissors.svg" alt="Scissors" width="200" height="200">
+            <img src="scissors.svg" alt="Scissors" width="150" height="150">
         </button>
     </div>
-    <div class="bottom">
-        <p> Copyright @ JMaxtos 2025 <a href="https://github.com/JMaxtos"rel="noopener noreferrer" target="_blank"><img src="github.svg" width="30px" height="30px"></p>
-
+    
+    <div class="bottom"> Copyright @ JMaxtos 2025 <a href="https://github.com/JMaxtos" rel="noopener noreferrer"
+            target="_blank"><img src="github.svg" width="30px" height="30px"></p>
     </div>
-    </div>
+    
     <script src="rockpaperscissors.js"></script>
 </body>
 
