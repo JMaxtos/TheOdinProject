@@ -107,6 +107,10 @@ button:hover {
     padding: 10px;
     align-self: center;
     margin-top: 10%;
+    font-size: 20px;
+}
+.bottom img{
+    margin: 10px;
 }
 
 .bottom img:hover {
@@ -157,6 +161,9 @@ a {
 .modal-content button{
     display: flex;
     background-color: #A888B5;
+    font-family: 'ALLASKA', sans-serif;
+    font-size: 22px;
+    color:#FFD2A0;
 }
 .close {
     float: right;
