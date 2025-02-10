@@ -26,16 +26,22 @@
         </div>
         <div class="scores">
             <div class="score-box">
-                <div id="computerscore" class="computerscore">0</div>
-                <p>Computer Score</p>
-            </div>
-            <div class="score-box">
                 <div id="humanscore" class="humanscore">0</div>
                 <p>Your Score</p>
             </div>
+            <div class="score-box">
+                <div id="computerscore" class="computerscore">0</div>
+                <p>Computer Score</p>
+            </div>
         </div>
     </div>
-
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="winnerMessage"></h2>
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
     <div class="container">
         <button type="button" onclick="playRound('Rock')">
             <img src="rock.svg" alt="Rock" width="150" height="150">
