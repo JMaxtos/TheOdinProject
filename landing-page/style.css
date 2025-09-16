@@ -44,7 +44,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url("Images/members.webp") center/cover no-repeat;
+    background: url(Images/members.webp) center/cover no-repeat;
     overflow: hidden;
     padding: 20px;
 }
