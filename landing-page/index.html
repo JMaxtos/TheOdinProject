@@ -30,7 +30,7 @@
                 <button class="sign-up-button">See More!</button>
             </div>
         </div>
-        <div class="Information-title">Discography!</div>
+        <div id="albums" class="Information-title">Albums!</div>
         <div class="container">
             <div class="images-info">
                 <img src="Images/toxicity.webp" alt="Toxicity">
@@ -61,7 +61,6 @@
             </div>
         </div>
 
-       
         <div class="Sign-up-box">
             <div class="text-part">
                 <div class="box-header">Support this project</div>
@@ -77,6 +76,14 @@
             </div>
         </div>
     </div>
+    <script>
+        const heroButton = document.querySelector('.Hero .sign-up-button');
+        const albumsSection = document.getElementById('albums');
+
+        heroButton.addEventListener('click', () => {
+            albumsSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>

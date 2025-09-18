@@ -11,6 +11,9 @@ body {
     color: white;
 }
 
+html {
+            scroll-behavior: smooth;
+    }
 
 .header {
     background-color: #b4121b;
